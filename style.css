@@ -2,17 +2,14 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   width: 100%;
   margin: 0;
   padding: 0;
   height: 100%;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
-
   margin: 0;
   width: 100%;
   height: 100vh;
@@ -25,7 +22,6 @@ body {
   flex-direction: column;
   padding: 32px;
 }
-
 h1 {
   margin: 0;
   font-weight: bold;
@@ -46,7 +42,6 @@ h1 {
     line-height: 24px;
   }
 }
-
 p {
   font-size: 16px;
   line-height: 24px;
@@ -66,7 +61,6 @@ p {
     line-height: 20px;
   }
 }
-
 .swiper-wrapper {
   width: 100%;
   height: 100%;
@@ -75,7 +69,6 @@ p {
   z-index: 1;
   position: relative;
 }
-
 .swiper-container {
   background: linear-gradient(270deg, #f7f9ff 0%, #f2f6ff 100%);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -92,7 +85,6 @@ p {
   width: 100%;
   overflow: hidden;
 }
-
 .slider-item {
   width: 100%;
   height: 100%;
@@ -117,12 +109,10 @@ p {
   opacity: 0;
   transform: translateY(20px);
 }
-
 .swiper-slide-active .slider-item-content > * {
   transform: translateY(0px);
   opacity: 1;
 }
-
 .slider-image {
   width: 100%;
   height: 100%;
@@ -139,7 +129,6 @@ p {
   z-index: 1;
   width: auto !important;
 }
-
 .swiper-pagination-bullet {
   border-radius: 0;
   width: 8px;
@@ -154,13 +143,11 @@ p {
   cursor: pointer;
   transition: all 0.2s;
 }
-
 .swiper-pagination-bullet-active {
   background: #FFB200;
   width: 20px;
   border-radius: 10px;
 }
-
 .slider-buttons {
   position: absolute;
   display: flex;
@@ -169,7 +156,6 @@ p {
   width: 100%;
   padding-top: 8px;
 }
-
 .swiper-button-next,
 .swiper-button-prev {
   background-color: transparent;
@@ -195,7 +181,6 @@ p {
 .swiper-button-prev:hover:before {
   width: 100%;
 }
-
 .socials {
   position: fixed;
   top: 12px;
@@ -208,7 +193,6 @@ p {
   margin-left: 8px;
   color: #fff;
 }
-
 @media screen and (max-width: 520px) {
   .swiper-button-next:hover:before,
 .swiper-button-prev:hover:before {
